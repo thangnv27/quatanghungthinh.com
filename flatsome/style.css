@@ -1,0 +1,100 @@
+/*
+Theme Name: WEBDAITIN
+Theme URI: https://webdaitin.com/
+Author: WEBDAITIN
+Author URI: https://webdaitin.com/
+Description: Multi-Purpose Responsive WooCommerce Theme
+Version: 3.2.2
+Text Domain: flatsome
+License:
+License URI:
+*/
+
+/***************
+All custom CSS should be added to WEBDAITIN > Advanced > Custom CSS,
+or in the style.css of a Child Theme.
+***************/
+/*#Zoomer{
+	width: initial !important;
+}*/
+
+/* Custom visual composer */
+.page-builder .wpb_content_element.vc_wp_custommenu,
+.wpb_content_element.wpb_layerslider_element, 
+.wpb_content_element.wpb_gmaps_widget{
+    margin-bottom: 0
+}
+.page-builder .tt_2cl, .page-builder .tt_2cl:last-child{margin: 2.5%!important}
+.wpb_flexslider.flexslider .slides img{
+    width: auto!important;
+    max-width: 100%;
+    margin: auto
+}
+.wpb_button, .wpb_content_element, ul.wpb_thumbnails-fluid>li{
+    overflow: hidden
+}
+.wpb_gallery_slides.wpb_image_grid img:hover{
+    opacity: .7;
+    cursor: pointer
+}
+.wpb_wrapper img{max-width: 100%;height: auto}
+.vc_carousel-slideline img{
+    display: block;
+    max-width: 100%;
+    margin: auto
+}
+.vc_single_image-img.attachment-full {
+    width: 100% !important;
+}
+.vc_tta-panels .vc_tta-panel .vc_tta-panel-body{
+    background-color: #fff!important
+}
+section > article > .vc_row {
+    margin-left: 0;
+    margin-right: 0;
+}
+section > article > .vc_row > .vc_column_container.vc_col-sm-12 {
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 1200px){
+    section > article > .vc_row > .vc_column_container {
+        max-width: 1170px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    section > article > .vc_row > .vc_column_container {
+        max-width: 970px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    section > article > .vc_row > .vc_column_container {
+        max-width: 750px;
+    }
+}
+@media (max-width: 991px){
+    .vc_column_container{
+        padding-left: 15px!important;
+        padding-right: 15px!important
+    }
+    .vc_column_container > .vc_column-inner{
+        padding-left: 0!important;
+        padding-right: 0!important
+    }
+}
+
+section > article > .vc_row.fullwidth > .vc_column_container{
+    width: 100%;
+    max-width: 100%;
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+section > article > .vc_row.fullwidth > .vc_column_container > .vc_column-inner {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0
+}
+/* END: Custom visual composer */
